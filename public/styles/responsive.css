@@ -21,6 +21,10 @@
         visibility: hidden;
     }
 
+    #page-search-results header a + a {
+        visibility: hidden;
+    }
+
     #page-home main {
         align-items: center;
     }
