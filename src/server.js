@@ -73,7 +73,7 @@ app.post("/savepoint", function(req, res){
         if (err) {
             return res.send("Erro no cadastro!")
         }
-        return res.render("/create-point.html", {saved: true})
+        return res.render("create-point.html", {saved: true})
     }   
 
     db.run(query, values, afterInsert)
