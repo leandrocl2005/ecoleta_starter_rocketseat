@@ -75,6 +75,34 @@
     #page-create-point form button {
         width: 160px;
     }
+
+    #modal .header {
+        display: flex;
+        justify-content: center;
+    }
+
+    #modal .header h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    #modal .header a {
+        margin-left: 32px;
+    }
+
+    #modal form label {
+        margin-left: 16px;
+        font-size: 18px;
+    }
+
+    #modal form .search {
+        width: 90%;
+        margin-left: 16px;
+    }
+
+    #modal form .search img {
+        width: 34px;
+    }
 }
 
 @media (min-width: 1700px) {
