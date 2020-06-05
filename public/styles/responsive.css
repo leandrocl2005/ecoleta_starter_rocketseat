@@ -16,6 +16,11 @@
         left: 50%;
         transform: translateX(-50%);
     }
+
+    #page-create-point header a + a {
+        visibility: hidden;
+    }
+
     #page-home main {
         align-items: center;
     }
@@ -48,7 +53,7 @@
     }
 
     #page-create-point .items-grid {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 
     #page-create-point .items-grid img {
@@ -61,6 +66,10 @@
 
     #page-create-point .colect-header span {
         margin-top: 4px;
+    }
+
+    #page-create-point form button {
+        width: 160px;
     }
 }
 
