@@ -79,4 +79,6 @@ app.post("/savepoint", function(req, res){
     db.run(query, values, afterInsert)
 })
 
-app.listen(3000)
+server.listen(process.env.PORT || 5000, function () {
+    console.log("server is run!")
+})
